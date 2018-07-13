@@ -1,4 +1,9 @@
-.App {
+.card {
   height: 300px;
   width: 500px;
+  margin: 5px;
+}
+
+.card-title {
+  text-align: center;
 }

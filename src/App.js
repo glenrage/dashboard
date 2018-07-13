@@ -7,9 +7,20 @@ import PieChart from './components/PieChart';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <MainChart />
-        <PieChart />
+      <div className="container">
+        <div className="card">
+          <MainChart />
+          <div className="card-body">
+            <h5 className="card-title">Daily Temperature</h5>
+          </div>
+        </div>
+        <div className="card">
+          <PieChart />
+
+          <div className="card-body">
+            <h5 className="card-title">Notifications</h5>
+          </div>
+        </div>
       </div>
     );
   }
